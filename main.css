@@ -78,6 +78,7 @@ footer {
 
 .robo-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 15px;
     background: #ffffff;
@@ -111,3 +112,9 @@ footer {
     0% { transform: translateY(-10px); opacity: 0; }
     100% { transform: translateY(0); opacity: 1; }
 }
+.equipe {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+}   
